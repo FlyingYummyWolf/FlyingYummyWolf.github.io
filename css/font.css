@@ -1,0 +1,84 @@
+html,body {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    /* opacity: 0; */
+    font-family: "LXGW WenKai Screen", "Hannotate SC", "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    /* color: rgb(51, 51, 51); */
+    line-height: 1.6;
+    font-size: 100%;
+}
+
+mjx-container {
+    font-size: 100% !important;
+}
+
+div#post>article {
+    font-size: 122% !important;
+}
+
+.article-sort-item-img {
+    width: 281px !important;
+    height: 203px !important;
+}
+a.blog-slider__img {
+    width: 281px !important;
+    height: 203px !important;
+}
+
+/* body > div.page#body-wrap > header {
+    box-shadow: 0px 10px 10px !important;
+} */
+
+/* html {
+    filter: grayscale(100%);
+} */
+
+.hr-double-arrow {
+    color: #d0d0d5;
+    border: double;
+    border-width: 3px 5px;
+    border-color: #d0d0d5 transparent;
+    height: 1px;
+    overflow: visible;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+.hr-double-arrow:before, 
+.hr-double-arrow:after {
+    content: '';
+    position: absolute;
+    width: 5px; height: 5px;
+    border-width: 0 3px 3px 0;
+    border-style: double;
+    top: -3px;
+    background: radial-gradient(2px at 1px 1px, currentColor 2px, transparent 0) no-repeat;
+}
+.hr-double-arrow:before {
+    transform: rotate(-45deg);
+    left: -20px;
+}
+.hr-double-arrow:after {
+    transform: rotate(135deg);
+    right: -20px;
+}
+
+div#post-info {
+    text-align: right;
+}
+#post-info h1.post-title {
+    text-align: right;
+}
+
+main#content-inner {
+    max-width: 94.5%;
+}
+
+body > div.post > header#page-header.post-bg:not(.nav-visible) > nav {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
